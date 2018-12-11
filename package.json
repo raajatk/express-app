@@ -1,0 +1,13 @@
+{
+  "name": "express-seed",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "NODE_ENV=development nodemon app.js"
+  },
+  "dependencies": {
+    "mongoose": "^4.13.17",
+    "mongoose-role": "^2.0.1",
+    "mongoose-timestamp": "^0.6.0"
+  }
+}
