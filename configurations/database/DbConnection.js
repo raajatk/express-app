@@ -4,13 +4,12 @@ var getDbConnection = function () {
     case 'development':
       var db = mongoose.connect('mongodb://admin:nodeseed@localhost:27017/mongoseed');
       return checkMongooseConnection(db)
-     case 'staging':
+    case 'staging':
        var db = mongoose.connect('mongodb://admin:nodeseed@localhost:27017/mongoseed');
         return checkMongooseConnection(db)
     case 'production':
       var db = mongoose.connect('mongodb://admin:nodeseed@localhost:27017/mongoseed');
        return checkMongooseConnection(db)
-
     case 'test':
         var db = mongoose.connect('mongodb://admin:nodeseed@localhost:27017/mongoseed');
         return checkMongooseConnection(db)
