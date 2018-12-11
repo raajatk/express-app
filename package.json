@@ -6,7 +6,7 @@
     "start": "NODE_ENV=development nodemon app.js"
   },
   "dependencies": {
-    "mongoose": "^4.13.17",
+    "mongoose": "^4.10.8",
     "mongoose-role": "^2.0.1",
     "mongoose-timestamp": "^0.6.0"
   }
